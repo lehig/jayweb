@@ -1,0 +1,22 @@
+body {
+  background-color: #646864 !important;
+}
+
+img {
+  grid-column: 3/7;
+  width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+  filter: grayscale(100%);
+}
+
+img:hover {
+  transition-duration: 0.5s;
+  filter: none;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
